@@ -58,7 +58,7 @@ jobs:
         id: test-action
         uses: ./
         with:
-          milliseconds: 2000
+           who-to-greet: natdanai
 
       - name: Print Output
         id: output
