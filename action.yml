@@ -1,4 +1,4 @@
-name: 'Hello World JS Action'
+name: 'natdanai/demo-action'
 description: 'Greet someone and record the time'
 
 inputs:
