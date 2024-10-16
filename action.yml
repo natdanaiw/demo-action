@@ -1,15 +1,22 @@
 name: 'natdanai/demo-action'
 description: 'Greet someone and record the time'
 
+# Add your action's branding here. This will appear on the GitHub Marketplace.
+branding:
+  icon: 'heart'
+  color: 'red'
+
+# Define your inputs here.
 inputs:
-  who-to-greet:
-    description: 'Who to greet'
+  milliseconds:
+    description: 'Your input description here'
     required: true
-    default: 'World'
-    
+    default: '1000'
+
+# Define your outputs here.
 outputs:
   time:
-    description: 'The time we greeted you'
+    description: 'Your output description here'
     
 runs:
   using: 'node20'
